@@ -53,10 +53,6 @@ limit = 10
 [[widgets.page]]
 type = "toc"
 
-[opengraph.twitter]
-site = ""
-card = "summary_large_image"
-
 [defaultImage.opengraph]
 enabled = false
 local = false
@@ -85,9 +81,9 @@ admin = ""
 adminLabel = ""
 
 [comments.utterances]
-repo = ""
+repo = "ChickenHu/comments"
 issueTerm = "pathname"
-label = ""
+label = "Comments✨"
 
 [comments.remark42]
 host = ""
