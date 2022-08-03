@@ -1,9 +1,9 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
-slug: hello-world
+title: Disco Diffusion
+description: Play with Disco Diffusion
+slug: disco-diffusion
 date: 2022-08-03 00:00:00+0000
-image: cover.jpg
+image: https://img-keeper.vercel.app/lighttower1.png
 categories:
     - Life
 tags:
