@@ -18,7 +18,7 @@ subtitle = "Hello world!"
 [sidebar.avatar]
 enabled = true
 local = true
-src = "avatar.jpeg"
+src = 'img/avatar.png'
 
 [article]
 math = true
@@ -70,7 +70,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "utterances"
 
 [comments.disqusjs]
