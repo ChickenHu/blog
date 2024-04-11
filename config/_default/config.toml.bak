@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://chickiehu.vercel.app"
+baseurl = "https://chickenhu.vercel.app"
 languageCode = "en-us"
 paginate = 5
 title = "ChickenHu's Blog"
