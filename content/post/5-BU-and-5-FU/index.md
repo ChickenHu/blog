@@ -1,7 +1,7 @@
 ---
 title: 5-氟尿嘧啶和5-溴尿嘧啶
 description: A comparison between them
-date: 2024-04-11 08:00:00+0000
+date: 2024-04-11 00:00:00+0000
 image: cover1.jpg
 categories:
   - Biology
