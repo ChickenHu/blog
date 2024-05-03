@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ChickenHu's Blog</title><link>https://chickiehu.vercel.app/post/</link><description>Recent content in Posts on ChickenHu's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://chickiehu.vercel.app/post/index.xml" rel="self" type="application/rss+xml"/><item><title>给生竞生的互联网食用指南</title><link>https://chickiehu.vercel.app/p/internet-recipe/</link><pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate><guid>https://chickiehu.vercel.app/p/internet-recipe/</guid><description>&lt;img src="https://chickiehu.vercel.app/p/internet-recipe/cover.jpeg" alt="Featured image of post 给生竞生的互联网食用指南" />&lt;h2 id="准备">准备
+&lt;/h2>&lt;p>在按照本食谱食用之前，请确保您已准备好&lt;em>&lt;strong>魔法&lt;/strong>&lt;/em>，本食谱中部分操作需要使用魔法
+（什么？你是麻瓜？也许你可以试着去问问作者）&lt;/p>
+&lt;h2 id="找书">找书
+&lt;/h2>&lt;p>作为一名生竞生，许多时候需要用到各种教材的电子版，但是却苦于找不到，本部分将教会您如何正确的找书。&lt;/p>
+&lt;h3 id="来源">来源
+&lt;/h3>&lt;h4 id="zlibraryhttpssingleloginre">&lt;a class="link" href="https://singlelogin.re" target="_blank" rel="noopener"
+>zlibrary&lt;/a>
+&lt;/h4>&lt;p>作为全世界最大的电子书收集站，zlib甚至还得到了官方认证~~（狗头）~~，因此，你想找的书大部分在这里都能找到，下载速度也不错&lt;/p>
+&lt;h3 id="annas-archievehttpsannas-archieveorg">&lt;a class="link" href="https://annas-archieve.org" target="_blank" rel="noopener"
+>Anna&amp;rsquo;s Archieve&lt;/a>
+&lt;/h3>&lt;p>安娜的档案原本是原本是一个zlibrary的镜像站，但后来逐渐加入了一些别的资源，因此会有部分在zlib上找不到或下不了的书，并且还并入了Sci-Hub的资源，因此十分方便。唯一需要注意的是它的Fast Download仅供赞助用户（大概一个月三十）使用，有一点小贵&lt;/p>
+&lt;h2 id="论文">论文
+&lt;/h2>&lt;p>相信各位都会去找论文来看吧！学过生物信息学过后，大家肯定都知道了PubMed。但是PubMed只提供搜索服务，又该如何下载呢？&lt;/p>
+&lt;h3 id="free">Free
+&lt;/h3>&lt;p>假如你运气足够好，想要下载的论文是免费的，你只需要在PubMed上找到Full text link，然后在论文原网站下载PDF即可&lt;/p>
+&lt;h3 id="paid">Paid
+&lt;/h3>&lt;p>万一你运气不够好呢？&lt;/p>
+&lt;h4 id="什么是-doi">什么是 &lt;code>DOI&lt;/code>
+&lt;/h4>&lt;p>&lt;code>DOI&lt;/code>是数字对象唯一识别符，用来唯一地标记对象。相应的，每一篇论文都有其独一无二的 &lt;code>DOI&lt;/code>。例如，&lt;code>CRISPR-Cas9&lt;/code>原论文的&lt;code>DOI&lt;/code>是&lt;code>10.1038/nprot.2013.143&lt;/code>。在网站上，出版社都会给出论文的 &lt;code>DOI&lt;/code>，大多数时候是这样的链接：&lt;code>https://doi.org/10.1038/nprot.2013.143&lt;/code>。&lt;/p>
+&lt;h4 id="and-the-next">And the next?
+&lt;/h4>&lt;p>拿到 &lt;code>DOI&lt;/code>后，你就可以用它在&lt;a class="link" href="https://sci-hub.st" target="_blank" rel="noopener"
+>Sci-Hub&lt;/a>上寻找该文章了。当然，你也可以在Annas Archieve上下载。注意，假如这篇文章是最近发表的，有可能在Sci-Hub上找不到。&lt;/p>
+&lt;h2 id="搜索">搜索
+&lt;/h2>&lt;p>众所周知，百度是最难用的搜索引擎之一。因此，强烈建议使用Google或DuckDuckGo或Bing（按推荐度排列）代替百度。&lt;/p>
+&lt;h3 id="关于百科">关于百科
+&lt;/h3>&lt;p>百度百科以及一众国产竞品因为编辑门槛过低，内容审核不行，充斥着一众垃圾条目。因此，强烈建议使用Wikipedia代替。请注意，部分条目暂时缺少中文版，这种情况请参考其他语种，如有必要请使用翻译。&lt;/p>
+&lt;h3 id="关于知乎">关于知乎
+&lt;/h3>&lt;p>知乎作为一个问答社区，还是有许多高质量内容的，但无奈于知乎的搜索做的实在是太差了，请不要使用知乎自带的搜索，转而使用搜索引擎，在搜索结果中挑选来自知乎的内容，对于优秀的答主，请不要吝惜你的关注和赞同。&lt;/p>
+&lt;h3 id="关于aigc">关于AIGC
+&lt;/h3>&lt;p>在很多时候，&lt;code>ChatGPT&lt;/code>，&lt;code>Bard&lt;/code>等 &lt;code>AIGC&lt;/code> 模型可以代替搜索引擎，但请牢记，AI是会犯错的，它很可能会一本正经的胡说八道还迷之自信，所以请务必核实。&lt;/p>
+&lt;h2 id="pdf">PDF
+&lt;/h2>&lt;p>假如你只需要简单的高光、划线，例如阅读教材的时候，请无脑选择Acrobat！作为Adobe的亲儿子，Acrobat对PDF的渲染，加载速度，兼容性还有UI绝对是最优秀的，唯一的不足是手绘功能太鸡肋，以及部分功能付费（但基础功能绝对够用）。
+但如果你需要做笔记，绘图，还请选择更专业的笔记软件，例如华为自带的笔记。&lt;/p>
+&lt;h2 id="笔记">笔记
+&lt;/h2>&lt;h3 id="手写笔记">手写笔记
+&lt;/h3>&lt;p>很抱歉这超出了作者的涉猎范围，还请自行寻找合适的软件&lt;/p>
+&lt;h3 id="仅打字">仅打字
+&lt;/h3>&lt;p>请明确一个原则，内容才是最重要的，不要过于看中排版。因此，Word等一众富文本软件并不适合记笔记，更好的选择是使用&lt;a class="link" href="https://markdown.com.cn/intro.html#markdown-%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F" target="_blank" rel="noopener"
+>Markdown&lt;/a>
+对于安卓用户，Obsidian和Notion会是不错的选择，Notion的功能会更加丰富，但注意Notion的数据保存在云端，需要时刻联网。
+对于PC用户，Obsidian依然可用，但Typora也会是很不错的选择。除非你知道这是什么，请不要轻易选择Visual Studio Code。&lt;/p>
+&lt;h2 id="浏览器">浏览器
+&lt;/h2>&lt;p>别用国产！别用国产！别用国产！
+推荐使用Firefox（国际版），Edge或Chrome（按推荐度排序）
+（并没有夹带私货，但为了不让Chromium一统天下，还是支持支持Firefox吧！）&lt;/p>
+&lt;h3 id="firefox-add-ons">Firefox Add-ons
+&lt;/h3>&lt;p>Firefox在安卓端依然支持使用部分插件，虽然适配的数目不多，但是tampermonkey可！以！用！所以，可以通过安装油猴脚本的形式来使用插件的插件，以实现网页自动翻译，广告屏蔽，视频下载等功能。&lt;/p>
+&lt;h2 id="faq">FAQ
+&lt;/h2>&lt;h3 id="我该如何下载提到的这些app">我该如何下载提到的这些App？
+&lt;/h3>&lt;p>你可以在&lt;a class="link" href="https://apkpure.net" target="_blank" rel="noopener"
+>Apkpure&lt;/a>上搜索应用并下载，并使用Obtainium（&lt;a class="link" href="https://github.com/ImranR98/Obtainium/releases/latest" target="_blank" rel="noopener"
+>下载链接&lt;/a>）实现自动更新，仅需要将Apkpure的链接（形似 &lt;code>https://apkpure.net/youtube/com.google.android.youtube&lt;/code>）简单的粘贴到来源链接中，点击添加
+&lt;img src="https://chickiehu.vercel.app/p/internet-recipe/obtainium1.jpg"
+width="2560"
+height="1600"
+srcset="https://chickiehu.vercel.app/p/internet-recipe/obtainium1_huc5c1d9f943df684acd1ba7a9bba1effa_220790_480x0_resize_q75_box.jpg 480w, https://chickiehu.vercel.app/p/internet-recipe/obtainium1_huc5c1d9f943df684acd1ba7a9bba1effa_220790_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="1"
+class="gallery-image"
+data-flex-grow="160"
+data-flex-basis="384px"
+>
+&lt;img src="https://chickiehu.vercel.app/p/internet-recipe/obtainium2.jpg"
+width="2560"
+height="1600"
+srcset="https://chickiehu.vercel.app/p/internet-recipe/obtainium2_hufb8cc343bb581fac44d62f2ef6763899_149691_480x0_resize_q75_box.jpg 480w, https://chickiehu.vercel.app/p/internet-recipe/obtainium2_hufb8cc343bb581fac44d62f2ef6763899_149691_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="2"
+class="gallery-image"
+data-flex-grow="160"
+data-flex-basis="384px"
+>&lt;/p>
+&lt;h3 id="论文书籍下载失败">论文/书籍/&amp;hellip;&amp;hellip;下载失败
+&lt;/h3>&lt;p>请使用&lt;a class="link" href="https://github.com/devgianlu/Aria2App/release/latest" target="_blank" rel="noopener"
+>Aria2App&lt;/a>下载，该软件依然可以用Obtainium自动更新，同样的复制链接并粘贴即可
+注意，Obtainium可能会提示你使用 &lt;code>Github Token&lt;/code>，这种情况请从Apkpure上找到这个应用，并更换为Apkpure上的链接。（或者咨询作者）&lt;/p>
+&lt;h3 id="firefox国际版从哪下">Firefox国际版从哪下？
+&lt;/h3>&lt;p>Apkpure，见上。&lt;/p>
+&lt;h3 id="可是我用windows诶">可是我用Windows诶？
+&lt;/h3>&lt;p>大差不差，只是你不能再使用Aria2App和Obtainium，请使用Aria2NG和winget替代，你也不再需要Apkpure。
+（什么？你不会用？请私信作者&lt;del>单独辅导&lt;/del>寻求帮助）&lt;/p>
+&lt;h3 id="可是我用linux欸">可是我用Linux欸？
+&lt;/h3>&lt;p>都用Linux了还要我教什么？&lt;/p>
+&lt;h3 id="可是我用iosmacos欸">可是我用IOS/MacOS欸？
+&lt;/h3>&lt;p>尊贵的苹果用户不需要这些&lt;/p>
+&lt;h2 id="补充">补充
+&lt;/h2>&lt;p>待更新&lt;/p></description></item><item><title>5-氟尿嘧啶和5-溴尿嘧啶</title><link>https://chickiehu.vercel.app/p/5-bu-and-5-fu/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate><guid>https://chickiehu.vercel.app/p/5-bu-and-5-fu/</guid><description>&lt;img src="https://chickiehu.vercel.app/p/5-bu-and-5-fu/cover1.jpg" alt="Featured image of post 5-氟尿嘧啶和5-溴尿嘧啶" />&lt;p>昨天在寝室因为 &lt;code>5-氟尿嘧啶&lt;/code> 和 &lt;code>5-溴尿嘧啶&lt;/code>跟 ZJT 进行了激烈的讨论，结果发现自己成了joker。于是怒开此贴，以防还有人分不清楚。&lt;/p>
+&lt;h2 id="5-氟尿嘧啶">5-氟尿嘧啶
+&lt;/h2>&lt;p>&lt;code>5-氟尿嘧啶&lt;/code>是一种嘧啶类似物（划重点）&lt;/p>
+&lt;blockquote>
+&lt;p>嘧啶类似物仅仅是长得像嘧啶而已&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;code>5-氟尿嘧啶&lt;/code>在进入细胞后作为一种抗代谢药发挥作用，其最主要的功能是阻碍胸腺嘧啶的合成，同时也可以生成各种有毒的代谢物发挥毒性&lt;/p>
+&lt;h2 id="5-溴尿嘧啶">5-溴尿嘧啶
+&lt;/h2>&lt;p>这家伙才是正儿八经的碱基类似物&lt;/p>
+&lt;blockquote>
+&lt;p>碱基类似物不仅仅是跟碱基长得像，更重要的是它可以被直接参入到 &lt;code>DNA&lt;/code> 链中&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;code>5-溴尿嘧啶&lt;/code> 可以作为 &lt;code>胸腺嘧啶&lt;/code> 的类似物与 &lt;code>腺嘌呤&lt;/code> 配对，但是它更容易发生酮-烯醇式互变，其烯醇式与 &lt;code>鸟嘌呤&lt;/code> 配对，从而在复制时诱发转换，导致突变&lt;/p>
+&lt;h2 id="结论">结论
+&lt;/h2>&lt;p>所以，这两根本不是一类东西&lt;/p></description></item></channel></rss>
