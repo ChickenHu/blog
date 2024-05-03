@@ -19,10 +19,10 @@ slug: internet-recipe
 ### 来源
 #### [zlibrary](https://singlelogin.re)
 作为全世界最大的电子书收集站，zlib甚至还得到了官方认证~~（狗头）~~，因此，你想找的书大部分在这里都能找到，下载速度也不错
-### [Anna's Archieve](https://annas-archieve.org)
+#### [Anna's Archieve](https://annas-archieve.org)
 安娜的档案原本是原本是一个zlibrary的镜像站，但后来逐渐加入了一些别的资源，因此会有部分在zlib上找不到或下不了的书，并且还并入了Sci-Hub的资源，因此十分方便。唯一需要注意的是它的Fast Download仅供赞助用户（大概一个月三十）使用，有一点小贵
 ## 论文
-相信各位都会去找论文来看吧！学过生物信息学过后，大家肯定都知道了PubMed。但是PubMed只提供搜索服务，又该如何下载呢？
+相信各位都会去找论文来看吧！学过生物信息学过后，大家肯定都知道了PubMed，当然还有Google Scholar。但是PubMed只提供搜索服务，又该如何下载呢？
 ### Free
 假如你运气足够好，想要下载的论文是免费的，你只需要在PubMed上找到Full text link，然后在论文原网站下载PDF即可
 ### Paid
