@@ -1,7 +1,7 @@
 ---
 title: 给生竞生的互联网食用指南
 description: A recipe of how to cook the internet
-date: 2024-05-02 00:00:00+0000
+date: 2024-05-02
 image: cover.jpeg
 categories:
   - Tech
