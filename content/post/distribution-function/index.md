@@ -44,9 +44,7 @@ math: true
 额，似乎有些麻烦。不过没关系，让我们先看看简单点的情况。如果这条灯带有 $n$ 个点构成，我们依然可以用**二项分布**来解决
 
 $$
-
 P(x=k)=\mathrm{C}_n^mp^mq^{n-m}
-
 $$
 
 但是拜托，这可是 LED 灯带欸，它可有很多很多个点，或者说……无穷多个？
@@ -54,32 +52,26 @@ $$
 对啦！那么现在我们就可以写出这个式子
 
 $$
-
 \begin{align}
 P(x=k)=&\lim_{n\rightarrow\infty}\mathrm{C}_n^mp^mq^{n-m}\\
 =&\lim_{n\rightarrow\infty} \frac{n!}{\mu!(n-\mu)!} {\frac{\mu}{n}}^\mu(1-{\frac{\mu}{n}})^{n-\mu}\\
 \end{align}
-
 $$
 
 使用一些超纲的知识，我们最终可以知道
 
 $$
-
 \begin{align}
 P(x=k)=\frac{\mu^k}{k!}e^{-\mu}
 \end{align}
-
 $$
 
 稍稍修改一下，把 $\mu$ 换成 $\lambda$
 
 $$
-
 \begin{align}
 P(x=k)=\frac{\lambda^k}{k!}e^{-\lambda}
 \end{align}
-
 $$
 
 这即是泊松分布的表达式
@@ -97,9 +89,7 @@ $$
 `Bob` 还非常好心的告诉了我们正态分布表达式，因为这超出了我们所能推导的范围
 
 $$
-
 f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^{2}}}
-
 $$
 
 那，这又代表了什么呢？
