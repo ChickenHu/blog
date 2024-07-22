@@ -11,6 +11,7 @@ tags:
   - Note
 weight: 1
 slug: distribution-function
+math: true
 ---
 （封面与文章无关）
 
@@ -43,7 +44,9 @@ slug: distribution-function
 额，似乎有些麻烦。不过没关系，让我们先看看简单点的情况。如果这条灯带有 $n$ 个点构成，我们依然可以用**二项分布**来解决
 
 $$
+
 P(x=k)=\mathrm{C}_n^mp^mq^{n-m}
+
 $$
 
 但是拜托，这可是 LED 灯带欸，它可有很多很多个点，或者说……无穷多个？
@@ -51,26 +54,32 @@ $$
 对啦！那么现在我们就可以写出这个式子
 
 $$
+
 \begin{align}
 P(x=k)=&\lim_{n\rightarrow\infty}\mathrm{C}_n^mp^mq^{n-m}\\
 =&\lim_{n\rightarrow\infty} \frac{n!}{\mu!(n-\mu)!} {\frac{\mu}{n}}^\mu(1-{\frac{\mu}{n}})^{n-\mu}\\
 \end{align}
+
 $$
 
 使用一些超纲的知识，我们最终可以知道
 
 $$
+
 \begin{align}
 P(x=k)=\frac{\mu^k}{k!}e^{-\mu}
 \end{align}
+
 $$
 
 稍稍修改一下，把 $\mu$ 换成 $\lambda$
 
 $$
+
 \begin{align}
 P(x=k)=\frac{\lambda^k}{k!}e^{-\lambda}
 \end{align}
+
 $$
 
 这即是泊松分布的表达式
@@ -88,7 +97,9 @@ $$
 `Bob` 还非常好心的告诉了我们正态分布表达式，因为这超出了我们所能推导的范围
 
 $$
+
 f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^{2}}}
+
 $$
 
 那，这又代表了什么呢？
@@ -185,18 +196,22 @@ $$
 让我们来看看吧！首先，按照刚刚的思路，我们改变了一下正态分布的参数，这也就意味着我们的标准化也有了变化。
 
 $$
+
 \begin{align*}
 u&= \frac{\overline x-\mu_{\overline x}}{\sigma/\sqrt{n}}\approx\frac{\overline x-\mu_{\overline x}}{s/\sqrt{n}}
 \end{align*}
+
 $$
 
 注意到只有当 $n$ 较大时（通常以 $30$ 为界）约等号才成立，在较小时则不成立。那，它又等于什么呢？干脆直接起名叫 $t$ 吧！
 
 按照 Gosset 的理论，其实 $t$ 也满足特定的分布，也就是 $t$ 分布。
 $$
+
 f(t)=\frac{{\Gamma(\frac{{df+1}}{2})}}{\sqrt{\pi df}\Gamma(\frac{df}{2})}(1+\frac{t^{2}}{df})^{\frac{-df+1}{2}}
+
 $$
-哇，好复杂！别慌，让我们看看，整个式子里除了 $t$ 以外，就只有 $df$ 一个参数。$df$ 即是**自由度**，指在一定约束条件下，可以自由取值的变量的个数。来看看图吧（图中 $v$ 即指自由度）！![[Pasted image 20240722214241.png]]
+哇，好复杂！别慌，让我们看看，整个式子里除了 $t$ 以外，就只有 $df$ 一个参数。$df$ 即是**自由度**，指在一定约束条件下，可以自由取值的变量的个数。来看看图吧（图中 $v$ 即指自由度）！![](Pasted image 20240722214241.png)
 嗯？长的好像正态分布。事实上，当 $df\rightarrow\infty$ 时，$t$ 分布趋近于正态分布。
 OK，问题解决了！不过当 `Alice` 兴致冲冲去找 $t$ 分布的标准表时，她却只找到了一个叫 **$t$ 值表（双尾）** 的东西。![](Screenshot_20240722_214905.jpg)
 嗯？这是什么？为什么它只能用概率去查 $t$？`Alice` 百思不得其解。`Bob` 这时提醒她，因为这张表是用来**验证**的，而大家平时一般不会用 $t$ 去算概率（好吧）。
