@@ -25,7 +25,7 @@ math: true
 
 最终，我们可以得到 $P(m)=\mathrm{C}_{n}^{m}p^mq^{n-m}$，这即是二项分布。
 
-为了简化使用，我们将二项分布记作 $B(n,p)$，这个函数的图象类似于下图 ![[Pasted image 20240721213534.png]]
+为了简化使用，我们将二项分布记作 $B(n,p)$，这个函数的图象类似于下图 ![](Pasted image 20240721213534.png)
 
 ### 一些扩展
 
@@ -53,8 +53,8 @@ $$
 
 $$
 \begin{align}
-P(x=k)=&\lim_{n\rightarrow\infty}\mathrm{C}_n^mp^mq^{n-m}\\
-=&\lim_{n\rightarrow\infty} \frac{n!}{\mu!(n-\mu)!} {\frac{\mu}{n}}^\mu(1-{\frac{\mu}{n}})^{n-\mu}\\
+P(x=k)=&\lim_{n\rightarrow\infty}\mathrm{C}_n^mp^mq^{n-m}\\\\
+=&\lim_{n\rightarrow\infty} \frac{n!}{\mu!(n-\mu)!} {\frac{\mu}{n}}^\mu(1-{\frac{\mu}{n}})^{n-\mu}\\\\
 \end{align}
 $$
 
@@ -125,8 +125,8 @@ $$
 
 $$
 \begin{align}
-P(a<x<b)&=\int_a^bf(x)\mathrm{dx}\\
-&=\int_{-\infty}^bf(x)\mathrm{dx}-\int_{-\infty}^af(x)\mathrm{dx}\\
+P(a<x<b)&=\int_a^bf(x)\mathrm{dx}\\\\
+&=\int_{-\infty}^bf(x)\mathrm{dx}-\int_{-\infty}^af(x)\mathrm{dx}\\\\
 &=F(b)-F(a)
 \end{align}
 $$
@@ -141,9 +141,9 @@ $$
 
 $$
 \begin{align}
-\mu&=\frac{\sum\limits x}N\\
-\mu-\mu&=\frac{\sum\limits x}N-\mu\\
-0&=\frac{\sum\limits x-N\mu}N\\
+\mu&=\frac{\sum\limits x}N\\\\
+\mu-\mu&=\frac{\sum\limits x}N-\mu\\\\
+0&=\frac{\sum\limits x-N\mu}N\\\\
 0&=\frac{\sum\limits (x-\mu)}N
 \end{align}
 $$
@@ -152,9 +152,9 @@ $$
 
 $$
 \begin{align}
-\sigma^2&=\frac{\sum\limits((x-\mu)-\mu)^2}{N}\\
-\frac{\sigma^2}{\sigma^{2}}&=\frac{\sum\limits((x-\mu)-\mu)^2}{N\sigma^2}\\
-1&=\frac{\sum\limits(\frac{{(x-\mu)-\mu}}{\sigma})^2}{N}\\
+\sigma^2&=\frac{\sum\limits((x-\mu)-\mu)^2}{N}\\\\
+\frac{\sigma^2}{\sigma^{2}}&=\frac{\sum\limits((x-\mu)-\mu)^2}{N\sigma^2}\\\\
+1&=\frac{\sum\limits(\frac{{(x-\mu)-\mu}}{\sigma})^2}{N}\\\\
 \end{align}
 $$
 
@@ -170,7 +170,7 @@ $$
 
 $$
 \begin{align}
-P(a<x<b)&=F_{N(\mu,\sigma^2)}(a)-F_{N(\mu,\sigma^2)}(b)\\
+P(a<x<b)&=F_{N(\mu,\sigma^2)}(a)-F_{N(\mu,\sigma^2)}(b)\\\\
 &=F_{N(0,1)}(\frac{a-\mu}{\sigma})-F_{N(0,1)}(\frac{b-\mu}{\sigma})
 \end{align}
 $$
@@ -186,20 +186,16 @@ $$
 让我们来看看吧！首先，按照刚刚的思路，我们改变了一下正态分布的参数，这也就意味着我们的标准化也有了变化。
 
 $$
-
 \begin{align*}
 u&= \frac{\overline x-\mu_{\overline x}}{\sigma/\sqrt{n}}\approx\frac{\overline x-\mu_{\overline x}}{s/\sqrt{n}}
 \end{align*}
-
 $$
 
 注意到只有当 $n$ 较大时（通常以 $30$ 为界）约等号才成立，在较小时则不成立。那，它又等于什么呢？干脆直接起名叫 $t$ 吧！
 
 按照 Gosset 的理论，其实 $t$ 也满足特定的分布，也就是 $t$ 分布。
 $$
-
 f(t)=\frac{{\Gamma(\frac{{df+1}}{2})}}{\sqrt{\pi df}\Gamma(\frac{df}{2})}(1+\frac{t^{2}}{df})^{\frac{-df+1}{2}}
-
 $$
 哇，好复杂！别慌，让我们看看，整个式子里除了 $t$ 以外，就只有 $df$ 一个参数。$df$ 即是**自由度**，指在一定约束条件下，可以自由取值的变量的个数。来看看图吧（图中 $v$ 即指自由度）！![](Pasted image 20240722214241.png)
 嗯？长的好像正态分布。事实上，当 $df\rightarrow\infty$ 时，$t$ 分布趋近于正态分布。
