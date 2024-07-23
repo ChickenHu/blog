@@ -54,6 +54,8 @@ $$
 
 $$
 \begin{align}
+P(x=k)&=\lim_{n\rightarrow\infty}\mathrm{C}_n^mp^mq^{n-m}\\\\
+&=\lim_{n\rightarrow\infty}\frac{n!}{\mu!(n-\mu)!}{\frac{\mu}{n}}^\mu(1-{\frac{\mu}{n}})^{n-\mu}\\\\
 \end{align}
 $$
 
