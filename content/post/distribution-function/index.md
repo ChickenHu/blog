@@ -54,7 +54,6 @@ $$
 
 $$
 \begin{align}
-
 \end{align}
 $$
 
