@@ -1,7 +1,7 @@
 ---
 title: 关于Hedgehog信号通路
 description: About Hedgehog signaling pathways
-date: 2025-01-16
+date: 2025-01-16 00:00:00+0000
 image: cover.jpg
 categories:
   - Biology

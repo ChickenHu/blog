@@ -1,7 +1,7 @@
 ---
 title: 生物统计（一）：分布函数
 description: The brief introduction of distribution function
-date: 2024-07-22
+date: 2024-07-22 00:00:00+0000
 image: cover.png
 categories:
   - Biology
