@@ -4,7 +4,7 @@ description: The brief introduction of distribution function
 date: 2024-07-22
 image: cover.png
 categories:
-  - Biology Note
+  - Biology
 tags:
   - Biology
   - Statistics
