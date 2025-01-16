@@ -8,6 +8,7 @@ categories:
 tags:
   - Biology
   - Botany
+draft: true
 weight: 1
 slug: mono-para-multi
 ---

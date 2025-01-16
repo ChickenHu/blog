@@ -7,6 +7,7 @@ categories:
   - 
 tags:
   - 
+draft: true
 weight: 1
 slug: euryapsida-or-parapsida
 ---
